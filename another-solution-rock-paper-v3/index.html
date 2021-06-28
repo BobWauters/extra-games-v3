@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style-rock-paper-scissors.css">
+  <title>V3 Rock Paper Scissors Game</title>
+</head>
+<body>
+
+
+
+<div class="container text-light mt-5">
+    <div class="row justify-content-md-center">
+        <div class="col-md-5 p-3 text-center pt-5" id="startgame">
+
+            <h1 class="text-dark font-weight-bold display-3" id="result">Let's Play</h1>
+            <p class="text-dark font-weight-bold lead text-capitalize p-5" id="vstext"></p>
+            <p>
+                <span class="text-dark">Human: <b id="playerscore"></b></span>
+                <span class="text-dark">Computer AI: <b id="aiscore"></b></span>
+            </p>
+            <button type="button" onclick="playGame(this)" class="btn-lg btn-primary btn-block">rock</button>
+            <button type="button" onclick="playGame(this)" class="btn-lg btn-secondary btn-block">paper</button>
+            <button type="button" onclick="playGame(this)" class="btn-lg btn-success btn-block">scissors</button>
+        </div>
+        <div class="col-md-5 p-3 text-center pt-5" id="endgame">
+
+
+
+            <button type="button" onClick="window.location.reload();" class="btn-lg btn-primary btn-block">Play again</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class ="container text-light mt-5">
+    <div class="row justify-content-md-center">
+        <div class="col-md-5 p-3 text-center pt-5" id ="startGame">
+          <h1 class ="text-dark font-weight-bold display-3" id="result"> Let's Play</h1>
+          <p class ="text-dark font-weight-bold lead text-capitalize p-5" id="vs-text"></p>
+          <p>
+            <span class="text-dark"> Human: <b id="playerScore"> 0 </b></span>
+            <span class="text-dark"> AI: <b id="aiScore"> 0 </b></span>
+          </p>
+          <button type="button" onclick="playGame(this)" class="btn-lg btn-primary btn-block"> ✊ </button>
+          <button type="button" onclick="playGame(this)" class="btn-lg btn-secondary btn-block"> ✋ </button>
+          <button type="button" onclick="playGame(this)" class="btn-lg btn-succes btn-block"> ✌ </button>
+        </div>
+        <div class="col-md-5 p-3 text-center pt-5" id ="endGame">
+
+        </div>
+
+    </div>
+</div>
+-->
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>BeCode/JavaScript - Background color (1)</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+        <link rel="stylesheet" href="../../_shared/css/styles.css" />
+
+
+
+    </head>
+    <body>
+
+        <div class="container">
+            <header>
+                <h1>BeCode / JavaScript</h1>
+                <h2>
+                    <strong>background color (1)</strong>
+                </h2>
+            </header>
+            <div class="content">
+                <section class="explain">
+                    <p>For each button, when clicked change the background color of the page to the one indicated.</p>
+                </section>
+
+                <!--Declare button as onclick, and give it the function changebackground so next time u want to change u call on this function -->
+                <section class="material">
+                    <div class="actions">
+                        <button onclick="changeBackgroundRed();">Red</button>
+                        <button onclick="changeBackgroundBlue();">Blue</button>
+                        <button onclick="changeBackgroundGreen();">Green</button>
+                        <button onclick="changeBackgroundYellow();">Yellow</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!--Calls on the function to change the color using css in your html file -->
+    <script>
+        function changeBackgroundRed() {document.body.style.background = "red";}
+        function changeBackgroundBlue() {document.body.style.background = "blue";}
+        function changeBackgroundGreen() {document.body.style.background = "green";}
+        function changeBackgroundYellow() {document.body.style.background = "yellow";}
+    </script>
+        <script src="./script.js"></script>
+    </body>
+</html>
+

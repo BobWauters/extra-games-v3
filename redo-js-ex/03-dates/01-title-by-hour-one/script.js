@@ -17,7 +17,7 @@
     //FIRST DECLARE VARIABLES
     let date = new Date();                                         //gets date
     let hour = date.getHours();                                   //gets hours of the date
-    let target = document.getElementById('target');     //declares target
+    document.getElementById('target');     //declares target
 
 
     // IF ELSE STATEMENT TO COMPARE WHICH HOUR IT IS FOR WHICH ANSWER
